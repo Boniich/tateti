@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="game\model\SelectMark.cpp" />
+    <ClCompile Include="game\view\SelectMarkView.cpp" />
     <ClCompile Include="Tateti.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\model\Player.h" />
+    <ClInclude Include="game\model\SelectMark.h" />
+    <ClInclude Include="game\view\SelectMarkView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
