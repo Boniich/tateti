@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game\model\SelectMark.cpp" />
+    <ClCompile Include="game\view\ShowTableGameView.cpp" />
     <ClCompile Include="game\view\SelectMarkView.cpp" />
     <ClCompile Include="Tateti.cpp" />
   </ItemGroup>
@@ -135,6 +136,7 @@
     <ClInclude Include="game\model\Player.h" />
     <ClInclude Include="game\model\SelectMark.h" />
     <ClInclude Include="game\view\SelectMarkView.h" />
+    <ClInclude Include="game\view\ShowTableGameView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
