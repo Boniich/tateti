@@ -27,6 +27,12 @@
     <ClCompile Include="game\view\ShowTableGameView.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="game\view\ShowOptionToSetPlayerMarkView.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="game\model\ShowOptionToSetPlayerMark.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\model\SelectMark.h">
@@ -39,6 +45,12 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game\view\ShowTableGameView.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\view\ShowOptionToSetPlayerMarkView.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\model\ShowOptionToSetPlayerMark.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

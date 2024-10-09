@@ -1,8 +1,10 @@
 ﻿#include "ShowTableGameView.h"
 
-void showTableGameView(const char tableGame[3][3], int rows, int columns) {
+void showTableGameView(const char tableGame[3][3]) {
 	
 	char letters[3] = { 'A','B','C' };
+	int rows = 3;
+	int columns = 3;
 
 
 	std::cout << "" << std::endl;

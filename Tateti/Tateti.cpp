@@ -2,6 +2,7 @@
 #include <windows.h>
 #include "game/view/SelectMarkView.h"
 #include "game/view/ShowTableGameView.h"
+#include "game/view/ShowOptionToSetPlayerMarkView.h"
 
 
 int main()
@@ -13,14 +14,16 @@ int main()
 
     Player player;
     Player npc;
-    char tableGame[3][3] = { {'X','O','X'}
-                            ,{'O','O','X'}
-                            ,{'O','X','O'} };
+    char tableGame[3][3] = { {' ','X',' '}
+                            ,{' ',' ',' '}
+                            ,{' ',' ',' '} };
 
     selectMarkView(player, npc);
 
     std::cout << "El player tiene la marca: " << player.mark << std::endl;
     std::cout << "El npc tiene la marca: " << npc.mark << std::endl;
 
-    showTableGameView(tableGame, 3, 3);
+    showTableGameView(tableGame);
+
+    ShowOptionToSetPlayerMarkView(tableGame);
 }
