@@ -33,6 +33,9 @@
     <ClCompile Include="game\model\ShowOptionToSetPlayerMark.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="game\model\SetPlayerMark.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\model\SelectMark.h">
@@ -51,6 +54,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game\model\ShowOptionToSetPlayerMark.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\model\SetPlayerMark.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

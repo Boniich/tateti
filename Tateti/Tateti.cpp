@@ -26,4 +26,10 @@ int main()
     showTableGameView(tableGame);
 
     ShowOptionToSetPlayerMarkView(tableGame);
+
+    setPlayerMarkView(tableGame, player.mark);
+
+    showTableGameView(tableGame);
+
+    
 }
