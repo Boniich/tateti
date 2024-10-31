@@ -5,6 +5,15 @@ about how make something with the lenguage
 
 ## Questions about game?
 
+### How i handle the npc rival?
+
+This is a good question, because i dont have idea how to make intellingent rivals
+
+--- First idea ---
+
+Recollect all free space and select one in random way to npc add his mark
+
+
 ## Questions about C++?
 
 ### How i handle the iostream between files?
