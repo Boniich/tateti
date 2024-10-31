@@ -3,6 +3,7 @@
 #include "game/view/SelectMarkView.h"
 #include "game/view/ShowTableGameView.h"
 #include "game/view/ShowOptionToSetPlayerMarkView.h"
+#include "game/view/SetNpcMarkView.h"
 
 
 int main()
@@ -11,10 +12,10 @@ int main()
     SetConsoleOutputCP(CP_UTF8);
 
 
-
+    bool gameOver = false;
     Player player;
     Player npc;
-    char tableGame[3][3] = { {' ','X',' '}
+    char tableGame[3][3] = { {' ',' ',' '}
                             ,{' ',' ',' '}
                             ,{' ',' ',' '} };
 
@@ -23,13 +24,19 @@ int main()
     std::cout << "El player tiene la marca: " << player.mark << std::endl;
     std::cout << "El npc tiene la marca: " << npc.mark << std::endl;
 
-    showTableGameView(tableGame);
+    do {
+        showTableGameView(tableGame);
 
-    ShowOptionToSetPlayerMarkView(tableGame);
+        ShowOptionToSetPlayerMarkView(tableGame);
 
-    setPlayerMarkView(tableGame, player.mark);
+        setPlayerMarkView(tableGame, player.mark);
 
-    showTableGameView(tableGame);
+        showTableGameView(tableGame);
+
+        setNpcMarkView(tableGame, npc.mark);
+
+    } while (!gameOver);
+
 
     
 }
