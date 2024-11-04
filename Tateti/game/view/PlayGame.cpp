@@ -33,5 +33,7 @@ void playGame(char tableGame[3][3],Player player, Player npc) {
 
     } while (!gameOver);
 
+    cleanTableGame(tableGame);
+
 }
 
