@@ -48,13 +48,19 @@
     <ClCompile Include="game\view\DeterminateWinnerView.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="game\view\PlayGame.cpp">
+    <ClCompile Include="game\coreGame\PlayGame.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="game\model\CleanTableGame.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="game\view\ShowPointers.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="game\menu\Menu.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="game\coreGame\StartGame.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,13 +98,19 @@
     <ClInclude Include="game\view\DeterminateWinnerView.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="game\view\PlayGame.h">
+    <ClInclude Include="game\coreGame\PlayGame.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game\model\CleanTableGame.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game\view\ShowPointers.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\menu\Menu.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\coreGame\StartGame.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
