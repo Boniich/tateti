@@ -1,9 +1,10 @@
 #pragma once
-#include "../../game/view/SelectMarkView.h"
-#include "../../game/view/ShowTableGameView.h"
-#include "../../game/view/ShowOptionToSetPlayerMarkView.h"
-#include "../../game/view/SetNpcMarkView.h"
-#include "../../game/view/DeterminateWinnerView.h"
-#include "../../game/model/Player.h";
+#include "../view/SelectMarkView.h"
+#include "../view/ShowTableGameView.h"
+#include "../view/ShowOptionToSetPlayerMarkView.h"
+#include "../view/SetNpcMarkView.h"
+#include "../view/DeterminateWinnerView.h"
+#include "../model/Player.h"
+#include "../model/CleanTableGame.h"
 
-void playGame();
+void playGame(char tableGame[3][3], Player player, Player npc);
