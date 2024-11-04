@@ -55,41 +55,6 @@ int main()
 
         }
 
-
-        //char marca = getWinner(tableGame);
-
-        //if (marca == player.mark) {
-        //    //Si la marca devuelva es la del jugador, se termina el juego
-        //    std::cout << "El ganador es el jugador " << std::endl;
-        //    hayGanador = true;
-        //    gameOver = true;
-        //}
-        //else {
-
-        //    if (contarEspaciosEnBlanco(tableGame) != 0 && hayGanador == false) {
-
-        //        setNpcMarkView(tableGame, npc.mark);
-
-        //        char marca = getWinner(tableGame);
-
-        //        if (marca == npc.mark) {
-        //            showTableGameView(tableGame);
-        //            std::cout << "El ganador es el NPC " << std::endl;
-        //            hayGanador = true;
-        //            gameOver = true;
-        //        }
-        //    }
-        //    //Si la marca devuelva es la del npc, se termina el juego
-        //}
-
-
-        //if (contarEspaciosEnBlanco(tableGame) == 0 && hayGanador == false) {
-        //    std::cout << "Es un empate" << std::endl;
-        //    gameOver = true;
-        //}
-
-
-
     } while (!gameOver);
 
 
