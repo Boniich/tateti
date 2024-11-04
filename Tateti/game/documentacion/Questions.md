@@ -13,6 +13,18 @@ This is a good question, because i dont have idea how to make intellingent rival
 
 Recollect all free space and select one in random way to npc add his mark
 
+## How i determinate a winner?
+
+I think in a few patterns over the table game that considerate de possibilities 
+for a winner, but I think this was too many lines of code
+
+So, i tried a few ways to make it but everyone had some problems, even, with
+they were efficient, so I asked ChatGPT, and it gave me a solution.
+
+The solution that he gave me, was practically my solution but in a better way
+using a for to iterate about rows and columns and keeping apart the lines
+that handler the diagonals
+
 
 ## Questions about C++?
 
