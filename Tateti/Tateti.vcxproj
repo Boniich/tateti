@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="game\model\CleanTableGame.cpp" />
     <ClCompile Include="game\model\DeterminateWinner.cpp" />
     <ClCompile Include="game\model\SelectMark.cpp" />
     <ClCompile Include="game\model\SetNpcMark.cpp" />
     <ClCompile Include="game\model\SetPlayerMark.cpp" />
     <ClCompile Include="game\model\ShowOptionToSetPlayerMark.cpp" />
     <ClCompile Include="game\view\DeterminateWinnerView.cpp" />
+    <ClCompile Include="game\view\PlayGame.cpp" />
     <ClCompile Include="game\view\SetNpcMarkView.cpp" />
     <ClCompile Include="game\view\ShowOptionToSetPlayerMarkView.cpp" />
     <ClCompile Include="game\view\ShowTableGameView.cpp" />
@@ -140,6 +142,7 @@
     <ClCompile Include="Tateti.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game\model\CleanTableGame.h" />
     <ClInclude Include="game\model\DeterminateWinner.h" />
     <ClInclude Include="game\model\Player.h" />
     <ClInclude Include="game\model\SelectMark.h" />
@@ -147,6 +150,7 @@
     <ClInclude Include="game\model\SetPlayerMark.h" />
     <ClInclude Include="game\model\ShowOptionToSetPlayerMark.h" />
     <ClInclude Include="game\view\DeterminateWinnerView.h" />
+    <ClInclude Include="game\view\PlayGame.h" />
     <ClInclude Include="game\view\SelectMarkView.h" />
     <ClInclude Include="game\view\SetNpcMarkView.h" />
     <ClInclude Include="game\view\ShowOptionToSetPlayerMarkView.h" />
