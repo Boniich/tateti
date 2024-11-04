@@ -137,6 +137,7 @@
     <ClCompile Include="game\view\PlayGame.cpp" />
     <ClCompile Include="game\view\SetNpcMarkView.cpp" />
     <ClCompile Include="game\view\ShowOptionToSetPlayerMarkView.cpp" />
+    <ClCompile Include="game\view\ShowPointers.cpp" />
     <ClCompile Include="game\view\ShowTableGameView.cpp" />
     <ClCompile Include="game\view\SelectMarkView.cpp" />
     <ClCompile Include="Tateti.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="game\view\SelectMarkView.h" />
     <ClInclude Include="game\view\SetNpcMarkView.h" />
     <ClInclude Include="game\view\ShowOptionToSetPlayerMarkView.h" />
+    <ClInclude Include="game\view\ShowPointers.h" />
     <ClInclude Include="game\view\ShowTableGameView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

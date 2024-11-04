@@ -1,6 +1,6 @@
 #include "PlayGame.h"
 
-void playGame(char tableGame[3][3],Player player, Player npc) {
+void playGame(char tableGame[3][3],Player& player, Player& npc) {
 
     bool gameOver = false;
     bool isThereWinner = false;
@@ -16,6 +16,7 @@ void playGame(char tableGame[3][3],Player player, Player npc) {
 
         if (determinatePlayerWin(tableGame, player)) {
             showWinner(gameOver, isThereWinner, "El jugador es el ganador");
+            player.pointers++;
         }
         else {
 
@@ -25,6 +26,7 @@ void playGame(char tableGame[3][3],Player player, Player npc) {
 
                 if (determinateNPCWin(tableGame, npc)) {
                     showWinner(gameOver, isThereWinner, "El NPC es el ganador");
+                    npc.pointers++;
                 }
             }
 

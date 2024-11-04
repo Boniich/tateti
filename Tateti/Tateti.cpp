@@ -2,6 +2,7 @@
 #include <windows.h>
 #include "game/view/SelectMarkView.h"
 #include "game/view/PlayGame.h"
+#include "game/view/ShowPointers.h"
 
 
 
@@ -39,9 +40,13 @@ int main()
         switch (opcion)
         {
         case 1: 
+            system("cls");
             playGame(tableGame, player, npc);
             break;
         case 2:
+            system("cls");
+            showPointers(player, npc);
+            std::cout << "" << std::endl;
             break;
         case 3:
             std::cout << "Adios! hasta la proxima!" << std::endl;

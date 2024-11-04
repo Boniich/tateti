@@ -7,4 +7,4 @@
 #include "../model/Player.h"
 #include "../model/CleanTableGame.h"
 
-void playGame(char tableGame[3][3], Player player, Player npc);
+void playGame(char tableGame[3][3], Player& player, Player& npc);
