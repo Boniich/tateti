@@ -7,7 +7,7 @@ void setPlayerMarkView(char tableGame[3][3],const char mark) {
 	bool exit = false;
 	int amountSpaceFree = 0;
 	char(*ptr)[2] = showOptionToSetPlayerMark(tableGame, amountSpaceFree);
-	static char positionToSetMark[3];
+	static char positionToSetMark[2];
 
 	do {
 

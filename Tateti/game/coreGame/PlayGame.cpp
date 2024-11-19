@@ -22,9 +22,9 @@ void playGame(char tableGame[3][3],Player& player, Player& npc) {
 
             if (!determinateDraw(tableGame, gameOver, isThereWinner)) {
                 setNpcMarkView(tableGame, npc.mark);
-                showTableGameView(tableGame);
 
                 if (determinateNPCWin(tableGame, npc)) {
+                    showTableGameView(tableGame);
                     showWinner(gameOver, isThereWinner, "El NPC es el ganador");
                     npc.pointers++;
                 }

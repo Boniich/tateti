@@ -23,11 +23,6 @@ bool determinateNPCWin(char tableGame[3][3], Player npc) {
 	char marca = getWinner(tableGame);
 
 	if (marca == npc.mark) {
-		//showTableGameView(tableGame);
-		//std::cout << "El ganador es el NPC " << std::endl;
-		//isThereWinner = true;
-		//gameOver = true;
-
 		return true;
 	}
 
