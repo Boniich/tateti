@@ -11,6 +11,7 @@ void menu(char tableGame[3][3], Player player, Player npc) {
         std::cout << "1- Jugar" << std::endl;
         std::cout << "2- Puntos" << std::endl;
         std::cout << "3- Salir" << std::endl;
+        std::cout << "Selecciona una opcion: ";
 
         if (std::cin >> opcion) {
             switch (opcion)
